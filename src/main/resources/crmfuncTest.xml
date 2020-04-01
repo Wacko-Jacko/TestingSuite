@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FreeCRMSuite">
+    <listeners>
+        <listener class-name="crm.auto.utils.TestListener"/>
+    </listeners>
+    <test name="LoginPageTest">
+        <classes>
+            <class name="crm.auto.tests.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>
